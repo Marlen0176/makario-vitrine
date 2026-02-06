@@ -1,26 +1,87 @@
 # AI Judge — Investor View (Public)
 
-## What it is
-**AI Judge** is an evidence-based judging pipeline for boxing.
-It produces **appeal-ready evidence packs**: short clips + structured metadata + traceable delivery.
+**AI Judge** is an evidence-based judging module for boxing and striking sports.
 
-## The wedge (why now)
-- disputes and subjectivity are expensive
-- commissions and broadcasters need audit-ready evidence
-- clubs need training feedback with clear boundaries
+The module produces **verifiable evidence packs**, not decisions.
 
-## What you get (public)
-- evidence capture (≈3s clip windows)
-- event metadata (timestamp, bout id, round, actor ids)
-- reliable delivery (queue + retry)
-- audit trace: what was captured, when, and under which consent/policy
+---
 
-## What we do NOT do
-- we do not replace human judges
-- we do not publish private implementation details
-- we do not claim medical diagnosis
+## What AI Judge does
 
-## Monetization (public)
-Licensing per venue / per commission / per broadcast deployment.
-AI Judge can be adopted standalone and later extended by other MakArio modules.
+AI Judge captures, structures, and preserves **objective evidence** of action:
 
+- short evidence clips (~3 seconds),
+- structured metadata,
+- deterministic timestamps,
+- delivery through an audit-ready pipeline.
+
+AI Judge does **not** score or judge.
+It provides **facts that can be reviewed, replayed, and verified**.
+
+---
+
+## Status
+
+- Stage: **Pilot**
+- Focus: validation, feedback, dataset growth
+- Environments: gyms, local competitions, controlled test bouts
+
+---
+
+## Why it matters
+
+Judging, coaching, and medical review all rely on the same missing element:
+
+**reliable, replayable evidence of movement and impact**.
+
+AI Judge addresses this at the **vision and evidence layer**,  
+not at the UI or post-hoc analytics level.
+
+---
+
+## What already exists
+
+This is not a concept-stage project.
+
+Implemented at architecture level:
+- evidence event models,
+- rolling clip window logic (~3s),
+- persistent event queue,
+- transport-agnostic delivery abstraction,
+- audit-ready structure for future federation use.
+
+---
+
+## Commercial focus (current phase)
+
+The current funding round is **strictly focused on AI Judge**.
+
+Funds are directed to:
+- completing pilot validation,
+- collecting structured feedback,
+- controlled dataset expansion,
+- locking infrastructure decisions.
+
+Other MakArio modules are **parallel extensions**, not dependencies.
+
+---
+
+## Investment terms (public)
+
+- Offering: **10% equity**
+- Round size: **$1,000,000**
+- Stage: Pre-Seed / Early Seed
+- Structure: Equity or SAFE (discussion-based)
+
+---
+
+## Ownership & IP
+
+- Single-founder project.
+- Core IP consolidated within one entity.
+- Patent strategy in progress.
+
+---
+
+> This is an infrastructure round.  
+> Not a feature race.
