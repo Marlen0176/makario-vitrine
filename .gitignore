@@ -1,0 +1,11 @@
+# Public vitrine: docs only
+app/
+.gradle/
+.idea/
+*.iml
+*.apk
+*.aab
+*.keystore
+local.properties
+*.jks
+*.log
