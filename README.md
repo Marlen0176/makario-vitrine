@@ -4,25 +4,28 @@ MakArio — модульная интеллектуальная платформ
 
 Платформа проектируется для поддержки повседневных задач пользователя в областях здоровья, обучения и питания.
 
-Модули MakArio развиваются независимо и взаимодействуют только через события.  
+Модули MakArio развиваются независимо и взаимодействуют только через события.
 Границы доступа, правила обмена и согласия обеспечиваются модулем Manager.
 
-Этот репозиторий — публичная витрина.  
-Здесь описаны принципы платформы и публичные контуры модулей.  
+Этот репозиторий — публичная витрина.
+Здесь описаны принципы платформы и публичные контуры модулей.
 Внутренний код и инженерные реализации намеренно не публикуются.
 
 ---
 
 ## Начните отсюда (60 секунд)
 
-One Pager — суть платформы и первый коммерческий фокус  
-→ `docs/one_pager.md`
+- One Pager — суть платформы и первый коммерческий фокус  
+  → `docs/one_pager.md`
 
-Platform Map — модули и граница public / private  
-→ `docs/PLATFORM_MAP.md`
+- Platform Map — модули и граница public / private  
+  → `docs/PLATFORM_MAP.md`
 
-AI Judge — пилотный коммерческий модуль (доказательный конвейер)  
-→ `modules/ai-judge/OVERVIEW.md`
+- AI Judge — пилотный коммерческий модуль (доказательный конвейер)  
+  → `modules/ai-judge/OVERVIEW.md`
+
+- Start Here (единая точка входа)  
+  → `docs/START_HERE.md`
 
 ---
 
@@ -50,7 +53,7 @@ MakArio создаётся как платформа, которая:
 
 Модули MakArio развиваются независимо и могут находиться на разных стадиях зрелости.
 
-Единая шкала готовности:
+Шкала готовности:
 
 Concept → Pilot → Production
 
@@ -66,46 +69,29 @@ Concept → Pilot → Production
 
 ## Модули платформы (публичная поверхность)
 
-### AI Judge
-→ `modules/ai-judge/OVERVIEW.md`
+- AI Judge → `modules/ai-judge/OVERVIEW.md`
+- Manager → `modules/manager/OVERVIEW.md`
+- Medical → `modules/medical/OVERVIEW.md`
 
-Пилотный модуль.  
-Evidence-based конвейер для фиксации и проверки событий.  
-Фокус текущего этапа платформы.
-
-### Manager
-→ `modules/manager/OVERVIEW.md`
-
-Административное ядро платформы.  
-Управляет согласиями, политиками, экспортом данных и правилами доступа.
-
-### Medical
-→ `modules/medical/OVERVIEW.md`
-
-Контекст здоровья и биомеханики.  
-Используется для информирования и ограничений, не для диагностики.
+### Каркасы будущих модулей (архитектурная поверхность)
+- SmartFood → `modules/smartfood/OVERVIEW.md`
+- Fitness → `modules/fitness/OVERVIEW.md`
+- Lya-Lya → `modules/lya-lya/OVERVIEW.md`
 
 ---
 
 ## Governance & Trust
 
-Manager governance — согласия, политики, экспорт и правила обмена  
-→ `docs/GOVERNANCE_MANAGER.md`
-
-Privacy boundary — публичные контуры и закрытая реализация  
-→ `docs/PRIVACY_BOUNDARY.md`
-
-Events contract — что входит и что может выходить  
-→ `docs/EVENTS_CONTRACT.md`
-
-Voice canon — единый голосовой слой и фильтрация политик  
-→ `docs/VOICE_CANON.md`
+- Manager governance → `docs/GOVERNANCE_MANAGER.md`
+- Privacy boundary → `docs/PRIVACY_BOUNDARY.md`
+- Events contract → `docs/EVENTS_CONTRACT.md`
+- Voice canon → `docs/VOICE_CANON.md`
 
 ---
 
 ## Примечание о целостности
 
-MakArio использует запатентованную биомеханическую систему визуализации,  
+MakArio использует запатентованную биомеханическую систему визуализации,
 основанную на нестандартных контрольных точках.
 
 Подробности реализации намеренно не публикуются в этой витрине.
