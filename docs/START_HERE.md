@@ -1,23 +1,28 @@
 # MakArio — Public Vitrine (Start Here)
 
-This repository is a **public vitrine**: principles, roles, contracts, and public entrypoints.  
-Private implementation details are intentionally not published.
+Этот репозиторий — **публичная витрина**: принципы, роли, контракты и точки входа.
+Приватные инженерные детали намеренно не публикуются.
 
-## Quick navigation (60 seconds)
-1) **One Pager** → `docs/one_pager.md`  
-2) **Platform Map** → `docs/PLATFORM_MAP.md`  
-3) **AI Judge Overview** → `modules/ai-judge/OVERVIEW.md`  
-4) **AI Judge — Investor View** → `modules/ai-judge/entrypoints/for-investors.md`  
+## Быстрый вход (60 секунд)
+1) One Pager → `docs/one_pager.md`  
+2) Platform Map → `docs/PLATFORM_MAP.md`  
+3) AI Judge Overview → `modules/ai-judge/OVERVIEW.md`  
+4) AI Judge (Investor) → `modules/ai-judge/entrypoints/for-investors.md`
 
-## Trust & governance
+## Governance & trust
 - Manager governance → `docs/GOVERNANCE_MANAGER.md`
 - Privacy boundary → `docs/PRIVACY_BOUNDARY.md`
 - Events contract → `docs/EVENTS_CONTRACT.md`
 - Voice canon → `docs/VOICE_CANON.md`
 - Module readiness → `docs/READINESS.md`
 
-## iOS-friendly “share links” (open in Safari)
-Replace `<USER>` and `<REPO>` if needed:
-- Repo home: `https://github.com/<USER>/<REPO>?tab=readme-ov-file`
-- Start Here: `https://github.com/<USER>/<REPO>/blob/main/docs/START_HERE.md?plain=1`
-- AI Judge (Investor): `https://github.com/<USER>/<REPO>/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1`
+## Открывать на iOS без GitHub App (Safari)
+**Главная витрина (репо):**
+- https://github.com/Marlen0176/makario-vitrine
+
+**Инвесторский вход (страница в репо):**
+- https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md
+
+**Если GitHub пытается открыть приложение — используйте RAW (в Safari открывается напрямую):**
+- Start Here (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/START_HERE.md
+- AI Judge Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md
