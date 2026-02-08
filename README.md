@@ -1,115 +1,111 @@
 # MakArio Platform (Public Vitrine)
 
-**MakArio** — модульная интеллектуальная платформа, ориентированная на **пользователя**.  
-Мы строим технологии на принципах уважительного взаимодействия, поддержки и долгосрочного развития.
+MakArio — модульная интеллектуальная платформа, ориентированная на пользователя.
 
-MakArio — это не один продукт.  
-Это платформа, где **суверенные модули** развиваются независимо и взаимодействуют **только через события**.  
-Границы доверия, режимы и правила обмена обеспечиваются модулем **Manager**.
+Платформа проектируется для поддержки повседневных задач пользователя в областях здоровья, обучения и питания.
 
-> Этот репозиторий — **публичная витрина**: здесь описаны принципы, контракты и публичные роли.  
-> Приватные инженерные детали и внутренний код намеренно не публикуются.
+Модули MakArio развиваются независимо и взаимодействуют только через события.  
+Границы доступа, правила обмена и согласия обеспечиваются модулем Manager.
+
+Этот репозиторий — публичная витрина.  
+Здесь описаны принципы платформы и публичные контуры модулей.  
+Внутренний код и инженерные реализации намеренно не публикуются.
 
 ---
 
-## Start here (60 seconds)
+## Начните отсюда (60 секунд)
 
-1) **One Pager** — что это такое, с чего начинаем, и чего мы сознательно не строим  
-   → `docs/one_pager.md`
+One Pager — суть платформы и первый коммерческий фокус  
+→ `docs/one_pager.md`
 
-2) **Platform Map** — модули и граница public / private  
-   → `docs/PLATFORM_MAP.md`
+Platform Map — модули и граница public / private  
+→ `docs/PLATFORM_MAP.md`
 
-3) **AI Judge** — первый коммерческий модуль (evidence-pipeline)  
-   → `modules/ai-judge/OVERVIEW.md`
-
-### For investors (fast entry)
-
-- **AI Judge — Investor entrypoint**  
-  → `modules/ai-judge/entrypoints/for-investors.md`
+AI Judge — пилотный коммерческий модуль (доказательный конвейер)  
+→ `modules/ai-judge/OVERVIEW.md`
 
 ---
 
 ## Суть MakArio
 
-> Технология должна **поддерживать пользователя** и помогать двигаться вперёд — спокойно, по-человечески,
-> с уважением и опорой на прогресс.
+MakArio создаётся как платформа, которая:
 
-Общий стиль платформы:
-- поддержка и уважение;
-- мотивация через ясность и прогресс;
-- тон “старшего товарища”: спокойно, внимательно, иногда с лёгким юмором;
-- безопасность и доверие — как правило архитектуры, а не как обещание.
+- поддерживает пользователя в повседневных задачах,
+- даёт рекомендации по необходимости,
+- работает последовательно и предсказуемо,
+- не навязывает решений и не давит на выбор.
+
+Общий стиль взаимодействия:
+
+- спокойный и уважительный,
+- поддержка через ясность,
+- тон старшего товарища: внимательный, ровный, иногда с лёгким юмором,
+- безопасность реализуется архитектурно, а не декларативно.
 
 Подробнее: `docs/VALUES.md`
 
 ---
 
-## Шкала готовности модулей (капсула)
+## Уровни зрелости модулей
 
-В MakArio модули имеют **разный уровень готовности** — это нормально: они растут независимо.  
-Мы показываем готовность публично простой “капсулой”, чтобы сразу было понятно, что уже можно пилотировать, а что в развитии.
+Модули MakArio развиваются независимо и могут находиться на разных стадиях зрелости.
 
-Пример (визуальная идея, текстовая версия):  
-`[ Concept ░░░░░░░░░░ Pilot ▓▓▓▓▓░░░ Production ██████░ ]`
+Единая шкала готовности:
 
-Легенда и критерии: `docs/READINESS.md`  
-Текущая таблица готовности: `docs/READINESS.md`
+Concept → Pilot → Production
 
----
+Критерии:
 
-## Governance & trust (почему партнёры могут доверять внедрениям)
+- Concept — архитектура и каркас модуля зафиксированы,
+- Pilot — модуль проходит валидацию и сбор отзывов,
+- Production — модуль готов к промышленному использованию.
 
-- **Manager governance** — согласие, политики, export/share-правила, юридические/налоговые шаблоны, device-границы  
-  → `docs/GOVERNANCE_MANAGER.md`
-
-- **Privacy boundary** — public concepts vs private implementation  
-  → `docs/PRIVACY_BOUNDARY.md`
-
-- **Events contract** — что входит / что может выходить  
-  → `docs/EVENTS_CONTRACT.md`
-
-- **Voice canon** — единый Voice Layer + фильтр политики Manager + приватность  
-  → `docs/VOICE_CANON.md`
+Текущая таблица: `docs/READINESS.md`
 
 ---
 
-## Readiness & compliance
+## Модули платформы (публичная поверхность)
 
-- **Deployment / partnering overview**  
-  → `licensing/LICENSING_OVERVIEW.md`
+### AI Judge
+→ `modules/ai-judge/OVERVIEW.md`
 
-- **Compliance note**  
-  → `docs/COMPLIANCE_NOTE.md`
+Пилотный модуль.  
+Evidence-based конвейер для фиксации и проверки событий.  
+Фокус текущего этапа платформы.
 
-- **Constitution & ethics**  
-  → `docs/CONSTITUTION.md`, `docs/ETHICS.md`
+### Manager
+→ `modules/manager/OVERVIEW.md`
 
----
+Административное ядро платформы.  
+Управляет согласиями, политиками, экспортом данных и правилами доступа.
 
-## Modules (public surface)
+### Medical
+→ `modules/medical/OVERVIEW.md`
 
-- **AI Judge** → `modules/ai-judge/OVERVIEW.md`  
-- **Manager** → `modules/manager/OVERVIEW.md`  
-- **Medical** → `modules/medical/OVERVIEW.md`
-
-> Примечание: **AI Trainer** существует как эталонный модуль поведения и “живого” общения,  
-> но его инженерные детали и внутренние библиотеки остаются приватными на текущем этапе.
-
----
-
-## Technical integrity notice (public-safe)
-
-> Public claim: proprietary biomechanical vision based on **non-standard control points**.  
-> Private implementation details are intentionally not published in this vitrine.
-
-**Start Here (single entrypoint)** → `docs/START_HERE.md`
+Контекст здоровья и биомеханики.  
+Используется для информирования и ограничений, не для диагностики.
 
 ---
 
-## iOS-friendly links (open in Safari)
-> If GitHub tries to open the app, use these links (they work in Safari).
+## Governance & Trust
 
-- Repo home: `https://github.com/Marlen0176/makario-vitrine?tab=readme-ov-file`
-- Start Here: `https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1`
-- AI Judge (Investor): `https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1`
+Manager governance — согласия, политики, экспорт и правила обмена  
+→ `docs/GOVERNANCE_MANAGER.md`
+
+Privacy boundary — публичные контуры и закрытая реализация  
+→ `docs/PRIVACY_BOUNDARY.md`
+
+Events contract — что входит и что может выходить  
+→ `docs/EVENTS_CONTRACT.md`
+
+Voice canon — единый голосовой слой и фильтрация политик  
+→ `docs/VOICE_CANON.md`
+
+---
+
+## Примечание о целостности
+
+MakArio использует запатентованную биомеханическую систему визуализации,  
+основанную на нестандартных контрольных точках.
+
+Подробности реализации намеренно не публикуются в этой витрине.
