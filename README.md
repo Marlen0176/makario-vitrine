@@ -4,28 +4,21 @@ MakArio — модульная интеллектуальная платформ
 
 Платформа проектируется для поддержки повседневных задач пользователя в областях здоровья, обучения и питания.
 
-Модули MakArio развиваются независимо и взаимодействуют только через события.
-Границы доступа, правила обмена и согласия обеспечиваются модулем Manager.
+Модули MakArio развиваются независимо и взаимодействуют только через события.  
+Границы доступа, правила обмена и согласия обеспечивает модуль Manager.
 
-Этот репозиторий — публичная витрина.
-Здесь описаны принципы платформы и публичные контуры модулей.
+Этот репозиторий — публичная витрина.  
+Здесь описаны принципы платформы и публичные контуры модулей.  
 Внутренний код и инженерные реализации намеренно не публикуются.
 
 ---
 
 ## Начните отсюда (60 секунд)
 
-- One Pager — суть платформы и первый коммерческий фокус  
-  → `docs/one_pager.md`
-
-- Platform Map — модули и граница public / private  
-  → `docs/PLATFORM_MAP.md`
-
-- AI Judge — пилотный коммерческий модуль (доказательный конвейер)  
-  → `modules/ai-judge/OVERVIEW.md`
-
-- Start Here (единая точка входа)  
-  → `docs/START_HERE.md`
+- One Pager → `docs/one_pager.md`
+- Platform Map → `docs/PLATFORM_MAP.md`
+- AI Judge → `modules/ai-judge/OVERVIEW.md`
+- Start Here (единая точка входа) → `docs/START_HERE.md`
 
 ---
 
@@ -38,7 +31,7 @@ MakArio создаётся как платформа, которая:
 - работает последовательно и предсказуемо,
 - не навязывает решений и не давит на выбор.
 
-Общий стиль взаимодействия:
+Стиль взаимодействия:
 
 - спокойный и уважительный,
 - поддержка через ясность,
@@ -53,8 +46,7 @@ MakArio создаётся как платформа, которая:
 
 Модули MakArio развиваются независимо и могут находиться на разных стадиях зрелости.
 
-Шкала готовности:
-
+Шкала готовности:  
 Concept → Pilot → Production
 
 Критерии:
@@ -73,7 +65,8 @@ Concept → Pilot → Production
 - Manager → `modules/manager/OVERVIEW.md`
 - Medical → `modules/medical/OVERVIEW.md`
 
-### Каркасы будущих модулей (архитектурная поверхность)
+Каркасы будущих модулей (архитектурная поверхность):
+
 - SmartFood → `modules/smartfood/OVERVIEW.md`
 - Fitness → `modules/fitness/OVERVIEW.md`
 - Lya-Lya → `modules/lya-lya/OVERVIEW.md`
@@ -91,7 +84,22 @@ Concept → Pilot → Production
 
 ## Примечание о целостности
 
-MakArio использует запатентованную биомеханическую систему визуализации,
+MakArio использует запатентованную биомеханическую систему визуализации,  
 основанную на нестандартных контрольных точках.
 
 Подробности реализации намеренно не публикуются в этой витрине.
+
+---
+
+## Открывать на iOS без GitHub App (Safari)
+
+Если `https://github.com/Marlen0176/makario-vitrine` уводит на промо-страницу — открывайте напрямую файлы:
+
+- Главная витрина (README, plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
+- Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
+- AI Judge Investor (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
+
+RAW (открывается напрямую в Safari всегда):
+
+- Start Here (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/START_HERE.md
+- AI Judge Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md
