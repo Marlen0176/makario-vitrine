@@ -10,7 +10,7 @@
 3) AI Judge Overview → `modules/ai-judge/OVERVIEW.md`  
 4) AI Judge (Investor) → `modules/ai-judge/entrypoints/for-investors.md`
 
-## Governance & Trust
+## Governance
 
 - Manager governance → `docs/GOVERNANCE_MANAGER.md`
 - Privacy boundary → `docs/PRIVACY_BOUNDARY.md`
@@ -20,18 +20,13 @@
 
 ## iOS / Safari (если GitHub уводит в App/promo)
 
-Repo (основная витрина):  
-https://github.com/Marlen0176/makario-vitrine
+Plain:
 
-Инвесторский вход (страница в репо):  
-https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md
+- README: https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
+- Start Here: https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
+- AI Judge (Investor): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
 
-Открывать напрямую (plain):
-
-- Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
-- AI Judge Investor (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
-
-RAW (в Safari открывается напрямую):
+RAW:
 
 - Start Here (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/START_HERE.md
 - AI Judge Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md

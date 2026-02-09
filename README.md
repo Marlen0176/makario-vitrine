@@ -1,13 +1,11 @@
 # MakArio Platform (Public Vitrine)
 
-MakArio — модульная интеллектуальная платформа, ориентированная на пользователя.  
-Платформа проектируется для поддержки повседневных задач пользователя в областях здоровья, обучения и питания.
+MakArio — модульная интеллектуальная платформа, ориентированная на пользователя.
 
 Модули MakArio развиваются независимо и взаимодействуют **только через события**.  
-Границы доступа, правила обмена, согласия и экспорт обеспечивает модуль **Manager**.
+Границы доступа, правила обмена и согласия обеспечивает модуль **Manager**.
 
-Этот репозиторий — публичная витрина.  
-Здесь описаны принципы платформы и публичные контуры модулей.  
+Этот репозиторий — публичная витрина: принципы, контракты и публичные контуры модулей.  
 Внутренний код и инженерные реализации намеренно не публикуются.
 
 ---
@@ -17,47 +15,11 @@ MakArio — модульная интеллектуальная платформ
 - One Pager → `docs/one_pager.md`
 - Platform Map → `docs/PLATFORM_MAP.md`
 - AI Judge → `modules/ai-judge/OVERVIEW.md`
-- Start Here (единая точка входа) → `docs/START_HERE.md`
+- Start Here → `docs/START_HERE.md`
 
 ---
 
-## Суть MakArio
-
-MakArio создаётся как платформа, которая:
-
-- поддерживает пользователя в повседневных задачах,
-- даёт рекомендации по необходимости,
-- работает последовательно и предсказуемо,
-- не навязывает решений и не давит на выбор.
-
-Стиль взаимодействия:
-
-- спокойный и уважительный,
-- поддержка через ясность,
-- тон старшего товарища: внимательный, ровный, иногда с лёгким юмором,
-- безопасность реализуется архитектурно, а не декларативно.
-
-Подробнее: `docs/VALUES.md`
-
----
-
-## Уровни зрелости модулей
-
-Модули MakArio развиваются независимо и могут находиться на разных стадиях зрелости.
-
-Шкала готовности: **Concept → Pilot → Production**
-
-Критерии:
-
-- Concept — архитектура и каркас модуля зафиксированы,
-- Pilot — модуль проходит валидацию и сбор отзывов,
-- Production — модуль готов к промышленному использованию.
-
-Текущая таблица: `docs/READINESS.md`
-
----
-
-## Модули платформы (публичная поверхность)
+## Модули (публичная поверхность)
 
 - AI Judge → `modules/ai-judge/OVERVIEW.md`
 - Manager → `modules/manager/OVERVIEW.md`
@@ -71,7 +33,7 @@ MakArio создаётся как платформа, которая:
 
 ---
 
-## Governance & Trust
+## Governance
 
 - Manager governance → `docs/GOVERNANCE_MANAGER.md`
 - Privacy boundary → `docs/PRIVACY_BOUNDARY.md`
@@ -80,25 +42,20 @@ MakArio создаётся как платформа, которая:
 
 ---
 
-## Примечание о целостности
+## Примечание о приватном IP
 
-MakArio использует запатентованную биомеханическую систему визуализации,  
-основанную на нестандартных контрольных точках.
-
-Подробности реализации намеренно не публикуются в этой витрине.
+Public claim: proprietary biomechanical vision based on **non-standard control points**.  
+Private implementation details are intentionally not published in this vitrine.
 
 ---
 
-## iOS / Safari ссылки (если GitHub уводит в App/promo или ссылка вставлена в поиск)
+## iOS / Safari (если GitHub уводит в App/promo)
 
-Repo (основная витрина):  
-https://github.com/Marlen0176/makario-vitrine
+Открывайте напрямую (plain):
 
-Открывать напрямую файлы (plain):
-
-- README (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
-- Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
-- AI Judge Investor (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
+- README: https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
+- Start Here: https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
+- AI Judge (Investor): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
 
 RAW (в Safari открывается напрямую):
 
