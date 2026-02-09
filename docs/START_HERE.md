@@ -18,9 +18,16 @@
 - Voice canon → `docs/VOICE_CANON.md`
 - Module readiness → `docs/READINESS.md`
 
-## iOS / Safari ссылки (если GitHub уводит в App/promo)
+## iOS / Safari (если GitHub уводит в App/promo)
 
-- README (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
+Repo (основная витрина):  
+https://github.com/Marlen0176/makario-vitrine
+
+Инвесторский вход (страница в репо):  
+https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md
+
+Открывать напрямую (plain):
+
 - Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
 - AI Judge Investor (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
 
