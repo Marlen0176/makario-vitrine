@@ -18,7 +18,7 @@ MakArio — модульная интеллектуальная платформ
 - One Pager → `docs/one_pager.md`
 - Platform Map → `docs/PLATFORM_MAP.md`
 - AI Judge → `modules/ai-judge/OVERVIEW.md`
-- Start Here (единая точка входа) → `docs/START_HERE.md`
+- Start Here → `docs/START_HERE.md`
 
 ---
 
@@ -91,15 +91,15 @@ MakArio использует запатентованную биомеханич
 
 ---
 
-## Открывать на iOS без GitHub App (Safari)
+## iOS / Safari ссылки (если GitHub уводит в App/promo)
 
-Если `https://github.com/Marlen0176/makario-vitrine` уводит на промо-страницу — открывайте напрямую файлы:
+Открывайте напрямую файлы:
 
-- Главная витрина (README, plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
+- README (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
 - Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
 - AI Judge Investor (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
 
-RAW (открывается напрямую в Safari всегда):
+RAW (в Safari открывается напрямую):
 
 - Start Here (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/START_HERE.md
 - AI Judge Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md

@@ -18,12 +18,7 @@
 - Voice canon → `docs/VOICE_CANON.md`
 - Module readiness → `docs/READINESS.md`
 
-## Открывать на iOS без GitHub App (Safari)
-
-GitHub repo:  
-- https://github.com/Marlen0176/makario-vitrine
-
-Если repo-страница уводит на промо-экран — открывайте напрямую файлы:
+## iOS / Safari ссылки (если GitHub уводит в App/promo)
 
 - README (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
 - Start Here (plain): https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
