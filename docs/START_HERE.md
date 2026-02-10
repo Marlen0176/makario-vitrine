@@ -1,32 +1,17 @@
-# MakArio — Public Vitrine (Start Here)
+# Start Here — MakArio Public Vitrine
 
-Этот репозиторий — публичная витрина: принципы, роли, контракты и точки входа.  
-Приватные инженерные детали намеренно не публикуются.
+Это публичная витрина: **принципы, архитектура и публичные контуры модулей**.  
+Приватные инженерные детали и внутренний код **намеренно не публикуются**.
 
-## Быстрый вход (60 секунд)
+## 60 секунд
+- One Pager → docs/one_pager.md
+- Platform Map → docs/PLATFORM_MAP.md
+- Readiness → docs/READINESS.md
 
-1) One Pager → `docs/one_pager.md`  
-2) Platform Map → `docs/PLATFORM_MAP.md`  
-3) AI Judge Overview → `modules/ai-judge/OVERVIEW.md`  
-4) AI Judge (Investor) → `modules/ai-judge/entrypoints/for-investors.md`
+## Для инвестора
+- AI Judge (Investor) → modules/ai-judge/entrypoints/for-investors.md
 
-## Governance
-
-- Manager governance → `docs/GOVERNANCE_MANAGER.md`
-- Privacy boundary → `docs/PRIVACY_BOUNDARY.md`
-- Events contract → `docs/EVENTS_CONTRACT.md`
-- Voice canon → `docs/VOICE_CANON.md`
-- Module readiness → `docs/READINESS.md`
-
-## iOS / Safari (если GitHub уводит в App/promo)
-
-Plain:
-
-- README: https://github.com/Marlen0176/makario-vitrine/blob/main/README.md?plain=1
-- Start Here: https://github.com/Marlen0176/makario-vitrine/blob/main/docs/START_HERE.md?plain=1
-- AI Judge (Investor): https://github.com/Marlen0176/makario-vitrine/blob/main/modules/ai-judge/entrypoints/for-investors.md?plain=1
-
-RAW:
-
+## Мобильный вход (если GitHub “прыгает”)
+- GO (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/GO.md
 - Start Here (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs/START_HERE.md
-- AI Judge Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md
+- Investor (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/modules/ai-judge/entrypoints/for-investors.md
