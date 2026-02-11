@@ -26,3 +26,13 @@ GO (RAW): https://raw.githubusercontent.com/Marlen0176/makario-vitrine/main/docs
 
 ## Public IP contour
 Public: proprietary biomechanical vision based on non-standard control points (concept).
+
+---
+
+## Quick Demo Hint
+
+Run:
+- cd demo/event-bus-jvm
+- ./gradlew run
+
+> ✅ You should see `[AUDIT] ExportAllowed` — consent works.
