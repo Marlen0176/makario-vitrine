@@ -1,17 +1,32 @@
 name: demo-jvm
-on: [push, pull_request]
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: demo/event-bus-jvm
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
-      - run: ./gradlew build --no-daemon
-      - run: ./gradlew run --no-daemon
+          java-version: '17'
+
+      # Install Gradle explicitly (no wrapper needed)
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build demo (no wrapper)
+        run: gradle -p demo/event-bus-jvm build --no-daemon
+
+      - name: Run demo (proof)
+        run: gradle -p demo/event-bus-jvm run --no-daemon
